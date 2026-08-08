@@ -3,6 +3,8 @@
 import argparse
 from pathlib import Path
 
+import methods.restormer  # noqa: F401
+
 from barcode_restoration.registry import available_methods, create_method
 
 
