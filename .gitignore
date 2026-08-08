@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+
+# Upstream repositories
+methods/*/upstream/
+
+# Runtime output
+outputs/*
+!outputs/.gitkeep
+
+# Input images
+inputs/*
+!inputs/.gitkeep
+
+# Logs / temporary files
+*.log
+tmp/
+.cache/

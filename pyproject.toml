@@ -1,0 +1,11 @@
+[project]
+name = "barcode-restoration-methods"
+version = "0.1.0"
+description = "Unified inference framework for deep-learning barcode restoration methods."
+requires-python = ">=3.11,<3.12"
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
